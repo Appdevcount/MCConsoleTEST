@@ -18,7 +18,7 @@ namespace MCConsoleTest
 
 
 
-        static string test1 ="1st push"+ "Change from Clone again"+
+        static string test1 ="1st push"+ "Change from Clone again"+ "Change from real " +
                             //"While the string object provides the LastIndexOf() method, which could be used to locate the last space character, I manually coded the loop myself so that I could use Char.IsWhiteSpace() to support all whitespace characters defined on the current system. If no whitespace is found, the line is simply broken at the maximum line length.\n" +
                             //"As each line is broken, that the code removes any spaces at the break. This avoids trailing spaces";
                             "Word wordword word word wo word words word Word wordword word word wo Word wordword word wordword word wordword word Tahtamouni1 Tahtamouni111 word\n" +
