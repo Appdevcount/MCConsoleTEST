@@ -18,7 +18,7 @@ namespace MCConsoleTest
 
 
 
-        static string test1 ="1st push"+ 
+        static string test1 ="1st push"+ "Change from Clone"+
                             //"While the string object provides the LastIndexOf() method, which could be used to locate the last space character, I manually coded the loop myself so that I could use Char.IsWhiteSpace() to support all whitespace characters defined on the current system. If no whitespace is found, the line is simply broken at the maximum line length.\n" +
                             //"As each line is broken, that the code removes any spaces at the break. This avoids trailing spaces";
                             "Word wordword word word wo word words word Word wordword word word wo Word wordword word wordword word wordword word Tahtamouni1 Tahtamouni111 word\n" +
@@ -62,12 +62,12 @@ namespace MCConsoleTest
 
 
             dirtyHTML = "This is my textarea to be replaced with CKEditor.<script src = \"../js/jquery-1.7.1.js\" />";
-            var result = NUglify.Uglify.HtmlToText(dirtyHTML);
-            string TextFromHTML2 = result.Code;
+            //var result = NUglify.Uglify.HtmlToText(dirtyHTML);
+            //string TextFromHTML2 = result.Code;
 
 
-            var resultfromfile = NUglify.Uglify.HtmlToText(HTMLFromFile);
-            string resultcodefromfile = resultfromfile.Code;
+            //var resultfromfile = NUglify.Uglify.HtmlToText(HTMLFromFile);
+            //string resultcodefromfile = resultfromfile.Code;
 
 
             FastHtmlTextExtractor htmlContent = new FastHtmlTextExtractor();
